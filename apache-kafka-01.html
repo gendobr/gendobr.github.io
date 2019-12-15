@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>  Apache Kafka. 1
+ | gendobr</title>
+
+    <meta name="author" content="Hennadii Dobrovolskyi"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" href="/theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="/theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="/theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Feeds -->
+
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1><a href="">gendobr</a> <small></small></h1>
+      </div>
+
+      <nav class="navbar navbar-default">
+
+        <!-- Hamburger menu for mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#plumage-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="" title="">gendobr</a>
+        </div>
+
+        <!-- Menus and search forms -->
+        <div class="collapse navbar-collapse" id="plumage-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+<li >
+                  <a href="/category/publications.html">Publications</a>
+                </li>
+<li  class="active" >
+                  <a href="/category/tutorials.html">Tutorials <span class="sr-only">(current)</span></a>
+                </li>
+          </ul>
+
+
+
+        </div>
+
+      </nav>
+
+    </div>
+
+
+    <div class="container main">
+
+
+      <div class="row">
+        <div class=" col-md-9  ">
+  <h1>
+    <a href="/apache-kafka-01.html" rel="bookmark" title="Permalink to Apache Kafka. 1">Apache Kafka. 1</a>
+  </h1>
+        </div>
+      </div>
+
+      <div class="row">
+
+
+        <div class=" col-md-9 " id="content" role="main">
+  
+
+  <div>
+    <p>Here I present my own step-by-step trace to master Apache Kafka messaging. Nothing original but sequence of steps from start to success.</p>
+<h1><a href="https://youtu.be/qfqTWbwE3Pg">Talk at YouTube</a> - review and use cases of Apache Kafka</h1>
+<h1>Follow the installation steps described in <a href="https://www.tutorialspoint.com/apache_kafka/">tutorial at tutorialspoint.com</a></h1>
+<h2>Test java version:</h2>
+<div class="highlight"><pre><span></span>~/bin$ java -version
+java version &quot;1.8.0_151&quot;
+Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+</pre></div>
+
+
+<h2>Install Zookeeper</h2>
+<h3>download the latest version of ZooKeeper</h3>
+<p><a href="http://zookeeper.apache.org/releases.html">Download page</a>
+latest stable version is zookeeper-3.4.11</p>
+<h3>extract files from archive</h3>
+<div class="highlight"><pre><span></span>~$ cd ~/bin
+~/bin$ mkdir zookeeper
+~/bin$ cd ~/bin/zookeeper
+~/bin/zookeeper$ tar -zxf zookeeper-3.4.11.tar.gz
+~/bin/zookeeper$ cd zookeeper-3.4.11
+~/bin/zookeeper/zookeeper-3.4.11$ mv ./* ..
+~/bin/zookeeper/zookeeper-3.4.11$ cd ..
+~/bin/zookeeper$ cd ..
+</pre></div>
+
+
+<h3>configure zookeeper</h3>
+<div class="highlight"><pre><span></span>~/bin/zookeeper$ mkdir data
+~/bin/zookeeper$ cd ./conf
+~/bin/zookeeper/conf$ cp zoo_sample.cfg zoo.cfg
+</pre></div>
+
+
+<p>Open zoo.cfg in the text editor and change</p>
+<div class="highlight"><pre><span></span>dataDir=/tmp/zookeeper
+</pre></div>
+
+
+<p>to</p>
+<div class="highlight"><pre><span></span>dataDir=/home/user/bin/zookeeper/data
+</pre></div>
+
+
+<p>where user id your username</p>
+<h3>start Zookeeper</h3>
+<div class="highlight"><pre><span></span>~/bin/zookeeper$ ./bin/zkServer.sh start 
+ZooKeeper JMX enabled by default
+Using config: /home/dobro/bin/zookeeper/bin/../conf/zoo.cfg
+Starting zookeeper ... STARTED
+~/bin/zookeeper$
+</pre></div>
+
+
+<h3>Start CLI</h3>
+<div class="highlight"><pre><span></span>~/bin/zookeeper$ ./bin/zkCli.sh
+Connecting to localhost:2181
+... log messages ...
+Welcome to ZooKeeper!
+... log messages ...
+JLine support is enabled
+... log messages ...
+WATCHER::
+
+WatchedEvent state:SyncConnected type:None path:null
+</pre></div>
+
+
+<p>press Ctrl+C to exit client</p>
+<h3>stop Zookeeper</h3>
+<div class="highlight"><pre><span></span>~/bin/zookeeper$ ./bin/zkServer.sh stop
+ZooKeeper JMX enabled by default
+Using config: /home/user/bin/zookeeper/bin/../conf/zoo.cfg
+Stopping zookeeper ... STOPPED
+~/bin/zookeeper$
+</pre></div>
+
+
+<h2>Apache Kafka Installation</h2>
+<h3>Create directory</h3>
+<div class="highlight"><pre><span></span>~/bin/zookeeper$ cd ../kafka
+~/bin/kafka$
+</pre></div>
+
+
+<h3>Download</h3>
+<p>download binary from (https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.0/kafka_2.11-1.0.0.tgz)  47.4 MB
+into ~/bin/kafka</p>
+<h3>Extract files</h3>
+<div class="highlight"><pre><span></span>~/bin/kafka$ tar -xzf kafka_2.11-1.0.0.tgz
+~/bin/kafka$ cd kafka_2.11-1.0.0/
+~/bin/kafka/kafka_2.11-1.0.0$ mv ./* ..
+~/bin/kafka/kafka_2.11-1.0.0$ cd ..
+~/bin/kafka$
+</pre></div>
+
+
+<h3>Start zookeeper</h3>
+<div class="highlight"><pre><span></span>~/bin/kafka$ ~/bin/zookeeper/bin/zkServer.sh start
+ZooKeeper JMX enabled by default
+Using config: /home/user/bin/zookeeper/bin/../conf/zoo.cfg
+Starting zookeeper ... STARTED
+~/bin/kafka$
+</pre></div>
+
+
+<h3>Start the Kafka server</h3>
+<div class="highlight"><pre><span></span>~/bin/kafka$ ~/bin/kafka/bin/kafka-server-start.sh ~/bin/kafka/config/server.properties
+[2018-01-14 10:55:20,065] INFO KafkaConfig values: 
+    advertised.host.name = null
+    advertised.listeners = null
+    advertised.port = null
+    alter.config.policy.class.name = null
+    authorizer.class.name = 
+    auto.create.topics.enable = true
+    auto.leader.rebalance.enable = true
+    background.threads = 10
+    broker.id = 0
+    broker.id.generation.enable = true
+    broker.rack = null
+    compression.type = producer
+    connections.max.idle.ms = 600000
+    controlled.shutdown.enable = true
+    controlled.shutdown.max.retries = 3
+    controlled.shutdown.retry.backoff.ms = 5000
+    controller.socket.timeout.ms = 30000
+    create.topic.policy.class.name = null
+    default.replication.factor = 1
+    delete.records.purgatory.purge.interval.requests = 1
+    delete.topic.enable = true
+    fetch.purgatory.purge.interval.requests = 1000
+    group.initial.rebalance.delay.ms = 0
+    group.max.session.timeout.ms = 300000
+    group.min.session.timeout.ms = 6000
+    host.name = 
+    inter.broker.listener.name = null
+    inter.broker.protocol.version = 1.0-IV0
+    leader.imbalance.check.interval.seconds = 300
+    leader.imbalance.per.broker.percentage = 10
+    listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+    listeners = null
+    log.cleaner.backoff.ms = 15000
+    log.cleaner.dedupe.buffer.size = 134217728
+    log.cleaner.delete.retention.ms = 86400000
+    log.cleaner.enable = true
+    log.cleaner.io.buffer.load.factor = 0.9
+    log.cleaner.io.buffer.size = 524288
+    log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+    log.cleaner.min.cleanable.ratio = 0.5
+    log.cleaner.min.compaction.lag.ms = 0
+    log.cleaner.threads = 1
+    log.cleanup.policy = [delete]
+    log.dir = /tmp/kafka-logs
+    log.dirs = /tmp/kafka-logs
+    log.flush.interval.messages = 9223372036854775807
+    log.flush.interval.ms = null
+    log.flush.offset.checkpoint.interval.ms = 60000
+    log.flush.scheduler.interval.ms = 9223372036854775807
+    log.flush.start.offset.checkpoint.interval.ms = 60000
+    log.index.interval.bytes = 4096
+    log.index.size.max.bytes = 10485760
+    log.message.format.version = 1.0-IV0
+    log.message.timestamp.difference.max.ms = 9223372036854775807
+    log.message.timestamp.type = CreateTime
+    log.preallocate = false
+    log.retention.bytes = -1
+    log.retention.check.interval.ms = 300000
+    log.retention.hours = 168
+    log.retention.minutes = null
+    log.retention.ms = null
+    log.roll.hours = 168
+    log.roll.jitter.hours = 0
+    log.roll.jitter.ms = null
+    log.roll.ms = null
+    log.segment.bytes = 1073741824
+    log.segment.delete.delay.ms = 60000
+    max.connections.per.ip = 2147483647
+    max.connections.per.ip.overrides = 
+    message.max.bytes = 1000012
+    metric.reporters = []
+    metrics.num.samples = 2
+    metrics.recording.level = INFO
+    metrics.sample.window.ms = 30000
+    min.insync.replicas = 1
+    num.io.threads = 8
+    num.network.threads = 3
+    num.partitions = 1
+    num.recovery.threads.per.data.dir = 1
+    num.replica.fetchers = 1
+    offset.metadata.max.bytes = 4096
+    offsets.commit.required.acks = -1
+    offsets.commit.timeout.ms = 5000
+    offsets.load.buffer.size = 5242880
+    offsets.retention.check.interval.ms = 600000
+    offsets.retention.minutes = 1440
+    offsets.topic.compression.codec = 0
+    offsets.topic.num.partitions = 50
+    offsets.topic.replication.factor = 1
+    offsets.topic.segment.bytes = 104857600
+    port = 9092
+    principal.builder.class = null
+    producer.purgatory.purge.interval.requests = 1000
+    queued.max.request.bytes = -1
+    queued.max.requests = 500
+    quota.consumer.default = 9223372036854775807
+    quota.producer.default = 9223372036854775807
+    quota.window.num = 11
+    quota.window.size.seconds = 1
+    replica.fetch.backoff.ms = 1000
+    replica.fetch.max.bytes = 1048576
+    replica.fetch.min.bytes = 1
+    replica.fetch.response.max.bytes = 10485760
+    replica.fetch.wait.max.ms = 500
+    replica.high.watermark.checkpoint.interval.ms = 5000
+    replica.lag.time.max.ms = 10000
+    replica.socket.receive.buffer.bytes = 65536
+    replica.socket.timeout.ms = 30000
+    replication.quota.window.num = 11
+    replication.quota.window.size.seconds = 1
+    request.timeout.ms = 30000
+    reserved.broker.max.id = 1000
+    sasl.enabled.mechanisms = [GSSAPI]
+    sasl.kerberos.kinit.cmd = /usr/bin/kinit
+    sasl.kerberos.min.time.before.relogin = 60000
+    sasl.kerberos.principal.to.local.rules = [DEFAULT]
+    sasl.kerberos.service.name = null
+    sasl.kerberos.ticket.renew.jitter = 0.05
+    sasl.kerberos.ticket.renew.window.factor = 0.8
+    sasl.mechanism.inter.broker.protocol = GSSAPI
+    security.inter.broker.protocol = PLAINTEXT
+    socket.receive.buffer.bytes = 102400
+    socket.request.max.bytes = 104857600
+    socket.send.buffer.bytes = 102400
+    ssl.cipher.suites = null
+    ssl.client.auth = none
+    ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+    ssl.endpoint.identification.algorithm = null
+    ssl.key.password = null
+    ssl.keymanager.algorithm = SunX509
+    ssl.keystore.location = null
+    ssl.keystore.password = null
+    ssl.keystore.type = JKS
+    ssl.protocol = TLS
+    ssl.provider = null
+    ssl.secure.random.implementation = null
+    ssl.trustmanager.algorithm = PKIX
+    ssl.truststore.location = null
+    ssl.truststore.password = null
+    ssl.truststore.type = JKS
+    transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+    transaction.max.timeout.ms = 900000
+    transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+    transaction.state.log.load.buffer.size = 5242880
+    transaction.state.log.min.isr = 1
+    transaction.state.log.num.partitions = 50
+    transaction.state.log.replication.factor = 1
+    transaction.state.log.segment.bytes = 104857600
+    transactional.id.expiration.ms = 604800000
+    unclean.leader.election.enable = false
+    zookeeper.connect localhost:2181
+    zookeeper.connection.timeout.ms = 6000
+    zookeeper.session.timeout.ms = 6000
+    zookeeper.set.acl = false
+    zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+..............
+[2018-01-14 10:55:20,971] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2018-01-14 10:55:20,995] INFO Kafka version : 1.0.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2018-01-14 10:55:20,995] INFO Kafka commitId : aaa7af6d4a11b29d (org.apache.kafka.common.utils.AppInfoParser)
+[2018-01-14 10:55:20,996] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+</pre></div>
+
+
+<p>Do not close the terminal to keep the server running. Below we reference this terminal session as term#server</p>
+<h3>Create a topic</h3>
+<p>Open new terminal session. Below we reference this terminal session as term#manager.</p>
+<p>Let's create a topic named "test" with a single partition and only one replica:</p>
+<div class="highlight"><pre><span></span>~/bin/kafka$ ~/bin/kafka/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
+Created topic &quot;test&quot;.
+dobro@dobro-HP-250-G5-Notebook-PC:~/bin/kafka$ 
+</pre></div>
+
+
+<p>We can now see that topic if we run the list topic command: </p>
+<div class="highlight"><pre><span></span>~/bin/kafka$ ~/bin/kafka/bin/kafka-topics.sh --list --zookeeper localhost:2181
+test
+</pre></div>
+
+
+<h3>Send some messages</h3>
+<p>Open new terminal session. Below we reference this terminal session as term#producer.</p>
+<p>Kafka comes with a command line client that will take input from a file or from standard input and send it out as messages to the Kafka cluster. By default, each line will be sent as a separate message.</p>
+<p>Run the producer and then type a few messages into the console to send to the server.</p>
+<div class="highlight"><pre><span></span>~/bin/kafka$ ~/bin/kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+&gt;test message No1
+&gt;test message No2
+&gt;test message No5
+</pre></div>
+
+
+<p>You should type in your messages after "&gt;", each line is send as separate message. Do not close the terminal.</p>
+<p>You can bress Ctrl+Z to finish.</p>
+<div class="highlight"><pre><span></span>&gt;^Z
+[1]+  Stopped                 ~/bin/kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+~/bin/kafka$
+</pre></div>
+
+
+<h3>Start a consumer</h3>
+<p>Open new terminal session.  Below we reference this terminal session as term#consumer.
+Kafka also has a command line consumer that will dump out messages to standard output. Open new terminal session </p>
+<p>~/bin/kafka$ ~/bin/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+test message No1
+test message No2
+test message No5</p>
+<p>You are able to type messages into the  terminal#producer and see them appear in the terminal#consumer.</p>
+<p>All of the command line tools have additional options; running the command with no arguments will display usage information documenting them in more detail.</p>
+<p>Sources:</p>
+<p><a href="http://blog.vahan.pro/category/apache-kafka/">Apache Kafka | Blog VahanPro</a></p>
+<p><a href="https://youtu.be/qfqTWbwE3Pg">Talk at YouTube</a></p>
+<p><a href="https://www.tutorialspoint.com/apache_kafka/">Tutorial at tutorialspoint.com</a></p>
+  </div>
+
+
+
+        </div>
+
+          <div class="col-md-3">
+  <div class="well">
+
+    <p><abbr title="2017-10-20T11:50:00+03:00"><i class="fa fa-calendar"></i> 20.10.2017</abbr></p>
+
+      <p><address>
+        <i class="fa fa-user"></i> By
+          <a href="/author/h-dobrovolskyi.html" rel="author">H. Dobrovolskyi</a>
+      </address></p>
+
+    <hr/>
+
+      <p>
+              <a href="/category/tutorials.html" rel="tag"
+                  data-toggle="tooltip" class="label label-info"
+                  title="1 article in this category">Tutorials</a>
+            <a href="/tag/distributed-computing.html" data-toggle="tooltip"
+      class="label label-default"
+      title="1 article with this tag">distributed computing</a>
+            <a href="/tag/big-data.html" data-toggle="tooltip"
+      class="label label-default"
+      title="1 article with this tag">big data</a>
+      </p>
+      <hr/>
+
+
+
+  </div>
+            
+          </div>
+
+      </div>
+
+    </div>
+
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-md-2">
+                <h5>Social</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://www.linkedin.com/in/hennadii-dobrovolskyi">
+      <img src="https://icons.better-idea.org/icon?url=www.linkedin.com&size=16" width="16" height="16" class="icon" alt="www.linkedin.com icon"/>
+    My LinkedIn
+  </a></li>
+                  <li>  <a href="https://www.researchgate.net/profile/Gennadiy_Dobrovolskiy">
+      <img src="https://icons.better-idea.org/icon?url=www.researchgate.net&size=16" width="16" height="16" class="icon" alt="www.researchgate.net icon"/>
+    My Researchgate
+  </a></li>
+                  <li>  <a href="https://github.com/gendobr/">
+      <i class="fa fa-github"></i>
+    My Github
+  </a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://docs.google.com/document/d/11JPyk4F5SSMPbA3kUfU5m9OGivOR0a7irsE-YJH9-Ag/edit?usp=sharing">
+      <i class="fa fa-file-text"></i>
+    My CV
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="col-md-2">
+            <h5>Browse content by</h5>
+            <ul class="list-unstyled">
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2017 Hennadii Dobrovolskyi.</p>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="col-md-2">
+          </div>
+
+        </div>
+      </div>
+
+      <h5 class="text-right"><a href="#"><i class="fa fa-arrow-up"></i> Back to top</a></h5>
+
+      <div class="container">
+        <div class="row col-md-12 text-muted text-center">
+          Site generated by <a href="https://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="https://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script src="/theme/js/jquery.mglass.js"></script>
+    <script src="/theme/js/application.js"></script>
+
+  </body>
+</html>
