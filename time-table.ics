@@ -24,1073 +24,1127 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2cfa6cc158d1f1ff533b51a9ddb7827c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260901T125500
 DTEND;TZID=Europe/Kyiv:20260901T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Вступ до DevOps. Передумови виникнення та еволюція підходу\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:155c31e9d1ba39f22fb6323c3c5c130d@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260901T143000
 DTEND;TZID=Europe/Kyiv:20260901T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 1. Визначення основних понять\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:ce6138427f78a74ab437a86a22ee1707@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260902T112500
 DTEND;TZID=Europe/Kyiv:20260902T124500
 SUMMARY:Архітектура обчислювальних систем [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.F1.25
+DESCRIPTION:Тема: Лекція 1. Модель виконання програми в комп'ютерній системі\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.F1.25
 END:VEVENT
 BEGIN:VEVENT
 UID:d05e2e15ec2c2e866809813a03439568@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260902T125500
 DTEND;TZID=Europe/Kyiv:20260902T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 1. Дослідження паралельної програми\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:ade516eb0ae0b00efe311833eb14f0f8@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260902T143000
 DTEND;TZID=Europe/Kyiv:20260902T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР1. Ознайомлення зі стандартами та регламентами управління ризиками ІБ\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:ddb838bd6869f357f6ee8896162964ec@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260903T112500
 DTEND;TZID=Europe/Kyiv:20260903T124500
 SUMMARY:Технології обробки текстових даних [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.0354-пл
+DESCRIPTION:Тема: Предмет\, задачі та методи автоматичної обробки природних мов\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.0354-пл
 END:VEVENT
 BEGIN:VEVENT
 UID:c74f97cec5ae355cb804954e10be2401@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260903T125500
 DTEND;TZID=Europe/Kyiv:20260903T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР1. Ознайомлення з Git і GitHub. Створення першого репозиторію\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:8084fcab29856900eabda714756fad10@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260903T143000
 DTEND;TZID=Europe/Kyiv:20260903T155000
 SUMMARY:Обробка природних мов [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Наївна байєсівська класифікація новин\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:e66c15933fb4b63b214b3eb67bb86b01@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260903T160500
 DTEND;TZID=Europe/Kyiv:20260903T172500
 SUMMARY:Обробка природних мов [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 6\nВид: Лк\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Предмет\, задачі та методи обробки природних мов\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 6 · Лк · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:43a94b233d2e6dd6309f5056863894b5@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260908T112500
 DTEND;TZID=Europe/Kyiv:20260908T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Основні визначення\, пов'язані з прогнозуванням часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:38a20fbcbbd3f0a5d121299535749b4f@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260908T125500
 DTEND;TZID=Europe/Kyiv:20260908T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Культура DevOps. CI/CD та життєвий цикл DevOps\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:78fb7ba4a1c7f6abefe36c00e70df6a5@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260908T143000
 DTEND;TZID=Europe/Kyiv:20260908T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 2. Типові структури паралельних та розподілених програм\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:8f78fa652e0ae7fb19a37dd2a6488297@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260909T112500
 DTEND;TZID=Europe/Kyiv:20260909T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Основні поняття управління ризиками інформаційної безпеки\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:e5e8f75aac24a3663f962453465be328@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260909T125500
 DTEND;TZID=Europe/Kyiv:20260909T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 1. Дослідження паралельної програми\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:8e6ee97050a16ce15b6f6980bcccf11a@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260909T143000
 DTEND;TZID=Europe/Kyiv:20260909T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР2. Ідентифікація активів та загроз організації\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:2e15085b19c35813b90f90052c9f3836@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260910T112500
 DTEND;TZID=Europe/Kyiv:20260910T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Порівняння двох часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:8fd2e8e31f8186bf0b875e2b33f7a2b0@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260910T125500
 DTEND;TZID=Europe/Kyiv:20260910T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР2. Робота з Git: commit\, branch\, merge\, resolving conflicts\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:d0416b7311b77a604d6de1130db8796c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260915T125500
 DTEND;TZID=Europe/Kyiv:20260915T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Операційна система Linux у DevOps: архітектура та принципи роботи\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:499ef28340ca0b06910a6637b0a57dae@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260915T143000
 DTEND;TZID=Europe/Kyiv:20260915T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 2. Типові структури паралельних та розподілених програм\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:05de6528499e8ea347cf3bd1e1deb62c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260916T112500
 DTEND;TZID=Europe/Kyiv:20260916T124500
 SUMMARY:Архітектура обчислювальних систем [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.F1.25
+DESCRIPTION:Тема: ЛР1. Аналіз запуску програми та адресного простору процесу\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.F1.25
 END:VEVENT
 BEGIN:VEVENT
 UID:6a43e723f751022ce5ee9643ec4b3fe8@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260916T125500
 DTEND;TZID=Europe/Kyiv:20260916T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 2. Типові помилки багатопоточних програм\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:422115ce1c0e7d1f66c683e7f544acfd@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260916T143000
 DTEND;TZID=Europe/Kyiv:20260916T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР3. Аналіз вразливостей за відкритими базами даних (CVE\, NVD\, OWASP)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:f4077a60146fb7db68dec2fb8421bf5b@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260917T112500
 DTEND;TZID=Europe/Kyiv:20260917T124500
 SUMMARY:Технології обробки текстових даних [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.0354-пл
+DESCRIPTION:Тема: Методи числового представлення слів\, речень\, документів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.0354-пл
 END:VEVENT
 BEGIN:VEVENT
 UID:d2c0e95ab0540992ed56d63f0e0fd5a9@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260917T125500
 DTEND;TZID=Europe/Kyiv:20260917T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР3. Основи Linux: навігація\, файлові операції\, права доступу\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:69266d5f57ae4f12a4e7c4c373ef6e00@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260917T143000
 DTEND;TZID=Europe/Kyiv:20260917T155000
 SUMMARY:Обробка природних мов [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Тематичне моделювання\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:1edef3392d5c9ad7d753daa0e36913ae@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260917T160500
 DTEND;TZID=Europe/Kyiv:20260917T172500
 SUMMARY:Обробка природних мов [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 6\nВид: Лк\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Методи числового представлення слів\, речень\, документів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 6 · Лк · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:719684dcce7c41ce2044312b2f4114dd@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260922T112500
 DTEND;TZID=Europe/Kyiv:20260922T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Робота з часовими рядами в Python. Pandas. TensorFlow\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:c78f2022289b8756d0d4533a428b8e9f@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260922T125500
 DTEND;TZID=Europe/Kyiv:20260922T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Bash\, процеси\, служби та автоматизація в Linux\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:d8592a53dc9d75d65b4db48022002ae4@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260922T143000
 DTEND;TZID=Europe/Kyiv:20260922T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 3. Синхронізація в паралельних програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:07c990e53f6d5a10e779f2b7ce05cec9@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260923T112500
 DTEND;TZID=Europe/Kyiv:20260923T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Стандарт ISO 31000. Стандарт ISO/IEC 27005\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:70f9d8efda2032d6515d6176dc4f0702@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260923T125500
 DTEND;TZID=Europe/Kyiv:20260923T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 2. Типові помилки багатопоточних програм\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:c7cdae25a959a1e8083b4e00c955b787@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260923T143000
 DTEND;TZID=Europe/Kyiv:20260923T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР4. Побудова матриці ризиків\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:43ac853dd5e3bc64e593902988862bdb@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260924T112500
 DTEND;TZID=Europe/Kyiv:20260924T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Візуалізація часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:ea3e91eabbbc885f39554f31dff29527@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260924T125500
 DTEND;TZID=Europe/Kyiv:20260924T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР4. Bash-скрипти для автоматизації розгортання застосунку\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:ae9bc6e5bcf9c0f2065279ad2e02d6b3@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260929T125500
 DTEND;TZID=Europe/Kyiv:20260929T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Системи контролю версій. Git як основа командної розробки\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:fb8a5fb627c3b95c136978d564f9ef1a@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260929T143000
 DTEND;TZID=Europe/Kyiv:20260929T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 4. Синхронізація в розподілених програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:bd2371ec94aff00d65ba9d6eb025d0a2@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260930T112500
 DTEND;TZID=Europe/Kyiv:20260930T124500
 SUMMARY:Архітектура обчислювальних систем [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.F1.25
+DESCRIPTION:Тема: ЛР2. Трасування виконання програми та аналіз машинного коду\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.F1.25
 END:VEVENT
 BEGIN:VEVENT
 UID:60963c2d26ae635c4f62407f6f3b0e45@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260930T125500
 DTEND;TZID=Europe/Kyiv:20260930T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 3. Синхронізація в паралельних програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:dd29079d8d25035899bcb8dcc60c6079@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20260930T143000
 DTEND;TZID=Europe/Kyiv:20260930T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР5. Оцінка ризиків за методологією OCTAVE Allegro\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:675fe99834334d1197ea6d23af8a920f@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261001T112500
 DTEND;TZID=Europe/Kyiv:20261001T124500
 SUMMARY:Технології обробки текстових даних [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.0354-пл
+DESCRIPTION:Тема: Прикладні задачі: виявлення сутностей і зв'язків\, класифікація тексту\, аналіз настрою\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.0354-пл
 END:VEVENT
 BEGIN:VEVENT
 UID:8e5b16e7a94826ae5f9c6cee33a3dd53@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261001T125500
 DTEND;TZID=Europe/Kyiv:20261001T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР5. Командна робота з Git: pull request та code review\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:bf95fd8248a3284bdc32cf9f717c4da0@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261001T143000
 DTEND;TZID=Europe/Kyiv:20261001T155000
 SUMMARY:Обробка природних мов [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Аналіз настроїв у відгуках\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:f1980ab94bb7f2792b3e85ee421b184b@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261001T160500
 DTEND;TZID=Europe/Kyiv:20261001T172500
 SUMMARY:Обробка природних мов [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 6\nВид: Лк\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Застосування нейронних мереж для обробки природних мов\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 6 · Лк · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:d0d1b8e9eb0c86214e1b7085747fedd4@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261006T112500
 DTEND;TZID=Europe/Kyiv:20261006T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Розвідувальний аналіз часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:f9359cfb22bc8bb1f4d63d2837aa1dfb@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261006T125500
 DTEND;TZID=Europe/Kyiv:20261006T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Моделі гілкування\, GitOps та code review\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:bb21ecec3faed4096adfd7b0dd9609a2@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261006T143000
 DTEND;TZID=Europe/Kyiv:20261006T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 4. Синхронізація в розподілених програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:6e5120374beec0f17fceb563ef389621@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261007T112500
 DTEND;TZID=Europe/Kyiv:20261007T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Стандарти та нормативно-правова база управління ризиками. Нормативні документи України та ЄС\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:a27420350c890dab3a383d3abbe618f8@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261007T125500
 DTEND;TZID=Europe/Kyiv:20261007T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 3. Синхронізація в паралельних програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:d3166c74a9ff8d7b8e593d185a212554@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261007T143000
 DTEND;TZID=Europe/Kyiv:20261007T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР6. Формування плану оброблення ризиків\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:e57c4bfed27bb8f14d952d904ae68c8d@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261008T112500
 DTEND;TZID=Europe/Kyiv:20261008T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Розвідувальний аналіз часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:08839002ff4bbc3bb7733e91f8e338ba@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261008T125500
 DTEND;TZID=Europe/Kyiv:20261008T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР6. Налаштування GitLab CI/CD для простого проєкту\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
+END:VEVENT
+BEGIN:VEVENT
+UID:ef5be9b94d8ad919a7f29c920b6fd810@kit-znu
+DTSTAMP:20260909T071932Z
+DTSTART;TZID=Europe/Kyiv:20261008T143000
+DTEND;TZID=Europe/Kyiv:20261008T155000
+SUMMARY:Професійний проєктний практикум [Лб]
+LOCATION:ауд. онлайн
+DESCRIPTION:Google Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.26
 END:VEVENT
 BEGIN:VEVENT
 UID:7bd6467b7391d96d9d60a627e20124cc@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261013T125500
 DTEND;TZID=Europe/Kyiv:20261013T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Infrastructure as Code: концепції та підходи\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:872bbc851e146ad9c39eeaa74b3fb1e4@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261013T143000
 DTEND;TZID=Europe/Kyiv:20261013T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 5. Типові структури подійно-орієнтованих програм\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:d97d1996d907c285972b6eb410080d67@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261014T125500
 DTEND;TZID=Europe/Kyiv:20261014T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 3. Синхронізація в паралельних програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:e7707a0a60913cd28d36c8e708d2781c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261014T143000
 DTEND;TZID=Europe/Kyiv:20261014T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР7. Розробка політики безпеки для зниження ризиків\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:9ad72e201f32cf2bf1dcded9a996f09c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261015T112500
 DTEND;TZID=Europe/Kyiv:20261015T124500
 SUMMARY:Технології обробки текстових даних [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Пз\nГрупи: 6.0354-пл
+DESCRIPTION:Тема: Токенізація\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Пз · 6.0354-пл
 END:VEVENT
 BEGIN:VEVENT
 UID:baeb45e5d068ad0c2cb2718a3f8aa2ee@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261015T125500
 DTEND;TZID=Europe/Kyiv:20261015T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР7. Infrastructure as Code: створення Ansible playbook\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:5de89d42f74e3a0a852dcc0361bf7ced@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261015T143000
 DTEND;TZID=Europe/Kyiv:20261015T155000
 SUMMARY:Обробка природних мов [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Виявлення сутностей\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:d63481cd5efdd21d21ecc2e9fcf66c24@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261015T160500
 DTEND;TZID=Europe/Kyiv:20261015T172500
 SUMMARY:Обробка природних мов [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 6\nВид: Лк\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Виявлення сутностей у тексті. Виявлення зв'язків між сутностями\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 6 · Лк · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:8f8ba90b91830077aa87156c1fe9c2e7@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261020T112500
 DTEND;TZID=Europe/Kyiv:20261020T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Перетворення часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:873f2633af1d1afba780f444736dff9e@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261020T125500
 DTEND;TZID=Europe/Kyiv:20261020T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Конфігураційний менеджмент: Ansible та ідемпотентність\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:47da81cf04142d824b05d2a3390005bf@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261020T143000
 DTEND;TZID=Europe/Kyiv:20261020T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 5. Типові структури подійно-орієнтованих програм\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:40d6c6cf8545ffeeb14206a704e70031@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261021T112500
 DTEND;TZID=Europe/Kyiv:20261021T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Активи інформаційної системи\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:c6f0697fdb3830c9a476600c64b9d9f1@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261021T125500
 DTEND;TZID=Europe/Kyiv:20261021T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 4. Синхронізація в розподілених програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:22a5bb0f1a25ecae544a05e95cc295ba@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261021T143000
 DTEND;TZID=Europe/Kyiv:20261021T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР8. Моніторинг та аудит ризиків\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:05a7d51b7a3c9b1edce930e63c05f86f@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261022T112500
 DTEND;TZID=Europe/Kyiv:20261022T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Перетворення часових рядів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:a0e29cb1fe6ab86c1c3a3a4b1097976c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261022T125500
 DTEND;TZID=Europe/Kyiv:20261022T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР8. Автоматизоване налаштування серверів за допомогою Ansible\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
+END:VEVENT
+BEGIN:VEVENT
+UID:72a9e0c951c61bd5eeb07db86b2e263e@kit-znu
+DTSTAMP:20260909T071932Z
+DTSTART;TZID=Europe/Kyiv:20261022T143000
+DTEND;TZID=Europe/Kyiv:20261022T155000
+SUMMARY:Професійний проєктний практикум [Лб]
+LOCATION:ауд. онлайн
+DESCRIPTION:Google Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.26
 END:VEVENT
 BEGIN:VEVENT
 UID:fbfeaf7287de1bb9ece1490af8d67246@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261027T125500
 DTEND;TZID=Europe/Kyiv:20261027T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Контейнеризація: концепція контейнерів і Docker\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:9e551151dc1a5a6117a214d056fa8595@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261027T143000
 DTEND;TZID=Europe/Kyiv:20261027T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:68919ef0fba7e61abdd05ac00d686793@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261028T125500
 DTEND;TZID=Europe/Kyiv:20261028T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 4. Синхронізація в розподілених програмах\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:434c173b297035aab4648374195b1eee@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261028T143000
 DTEND;TZID=Europe/Kyiv:20261028T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР9. Кількісна оцінка ризиків (SLE\, ALE\, ARO\; підхід FAIR)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:257120becc5ba6e315e907138ce37014@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261029T112500
 DTEND;TZID=Europe/Kyiv:20261029T124500
 SUMMARY:Технології обробки текстових даних [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Пз\nГрупи: 6.0354-пл
+DESCRIPTION:Тема: Розмітка частин мови\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Пз · 6.0354-пл
 END:VEVENT
 BEGIN:VEVENT
 UID:c4a2021d1fb1b4b2c0d84ef55acc93bd@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261029T125500
 DTEND;TZID=Europe/Kyiv:20261029T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР9. Створення Docker-образу веб-застосунку\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:8b031cdaa8ff298ffc95c16954c6a15d@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261029T143000
 DTEND;TZID=Europe/Kyiv:20261029T155000
 SUMMARY:Обробка природних мов [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Модель кодування-декодування\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:20e974509cd9e02d48c9a3578ecf4323@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261029T160500
 DTEND;TZID=Europe/Kyiv:20261029T172500
 SUMMARY:Обробка природних мов [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 6\nВид: Лк\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Класифікація тексту. Аналіз настрою\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 6 · Лк · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:58f11977f17b0c9cfec2d4fac6d65be2@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261103T112500
 DTEND;TZID=Europe/Kyiv:20261103T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Моделі типу «шум-тренд-сезонність»\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7e290e6f8bbd3d8fbf66c8de02cfad@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261103T125500
 DTEND;TZID=Europe/Kyiv:20261103T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Dockerfile\, Docker Compose та best practices\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:0702ac445c81f99560c2c04f33676da0@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261103T143000
 DTEND;TZID=Europe/Kyiv:20261103T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:dd54f9e7ae8c7853d8d0550834aa24da@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261104T112500
 DTEND;TZID=Europe/Kyiv:20261104T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Визначення загроз і вразливостей. Огляд типових кіберзагроз (SOC\, CERT звіти)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:603210f0d19d0ac60b68cb473b38317d@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261104T125500
 DTEND;TZID=Europe/Kyiv:20261104T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 5. Черги повідомлень\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:c43ccd3a352f00b4129b870b4d0672a4@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261104T143000
 DTEND;TZID=Europe/Kyiv:20261104T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР10. Оцінка ризиків\, пов'язаних із третіми сторонами та ланцюгом постачання\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:4d56bf63fa110a82b03f2153a4aa6472@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261105T112500
 DTEND;TZID=Europe/Kyiv:20261105T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Побудова моделі «шум-тренд-сезонність»\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:eb4b14fd58b727a84b8ff1a2c0730681@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261105T125500
 DTEND;TZID=Europe/Kyiv:20261105T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР10. Docker Compose: запуск багатоконтейнерного середовища\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
+END:VEVENT
+BEGIN:VEVENT
+UID:766ab13243f0a33bf9410e2311628383@kit-znu
+DTSTAMP:20260909T071932Z
+DTSTART;TZID=Europe/Kyiv:20261105T143000
+DTEND;TZID=Europe/Kyiv:20261105T155000
+SUMMARY:Професійний проєктний практикум [Лб]
+LOCATION:ауд. онлайн
+DESCRIPTION:Google Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.26
 END:VEVENT
 BEGIN:VEVENT
 UID:339c976d764335d698d2226887d972b2@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261110T125500
 DTEND;TZID=Europe/Kyiv:20261110T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Kubernetes: архітектура та основні об'єкти\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:2c7130ad5544942ceb87314d65152c29@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261110T143000
 DTEND;TZID=Europe/Kyiv:20261110T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:f3c9d1e48617c365b33a521a446e32d6@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261111T125500
 DTEND;TZID=Europe/Kyiv:20261111T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 5. Черги повідомлень\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:70641ab7b72a9399741cb996f110e789@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261111T143000
 DTEND;TZID=Europe/Kyiv:20261111T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР11. Формування реєстру ризиків (Risk Register) та плану реагування на інциденти\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:d0540f2bf3ac663a839e42bc27c1ca57@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261112T112500
 DTEND;TZID=Europe/Kyiv:20261112T124500
 SUMMARY:Технології обробки текстових даних [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Пз\nГрупи: 6.0354-пл
+DESCRIPTION:Тема: Стемінг та лематизація\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Пз · 6.0354-пл
 END:VEVENT
 BEGIN:VEVENT
 UID:8ff18e4cce6cc4929938811811bba6d3@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261112T125500
 DTEND;TZID=Europe/Kyiv:20261112T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР11. Розгортання застосунку у Kubernetes-кластері\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:3648d639d51bdbe797fbb5418d82255d@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261112T143000
 DTEND;TZID=Europe/Kyiv:20261112T155000
 SUMMARY:Обробка природних мов [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Генерація тексту\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:4ac304ffc3fa6ca58fe228d9d5604932@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261112T160500
 DTEND;TZID=Europe/Kyiv:20261112T172500
 SUMMARY:Обробка природних мов [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 6\nВид: Лк\nГрупи: 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
+DESCRIPTION:Тема: Машинний переклад. Генерація тексту. Діалогові системи\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 6 · Лк · 7.F3.25-он\, 7.F3.25-оп\, 7.F6.25
 END:VEVENT
 BEGIN:VEVENT
 UID:22986e1e4e4ab08810f06a28ede2d1b6@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261117T112500
 DTEND;TZID=Europe/Kyiv:20261117T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Модель ARIMA\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:38eecdae0c7d1701b17273d0ca6fa53e@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261117T125500
 DTEND;TZID=Europe/Kyiv:20261117T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: Масштабування\, оновлення без простоїв і Helm\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:98e7cd323e31ce5e79969e688c836132@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261117T143000
 DTEND;TZID=Europe/Kyiv:20261117T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:632835a1c271dfc889feefc980d2041b@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261118T112500
 DTEND;TZID=Europe/Kyiv:20261118T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Методи оцінки ризиків. Методи аналізу ризиків інформаційної безпеки\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:ff0423f194e1662006901148164eb0c0@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261118T125500
 DTEND;TZID=Europe/Kyiv:20261118T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:f694317907e22679cb27c936d7a2bab7@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261118T143000
 DTEND;TZID=Europe/Kyiv:20261118T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР12. Комплексний аналіз ризиків для обраного підприємства\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:ae227421df841c0d4ca1e38d876fee7c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261119T112500
 DTEND;TZID=Europe/Kyiv:20261119T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Побудова моделі ARIMA\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:d8580ad1903650ffdbeca45fb6b2b2d3@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261119T125500
 DTEND;TZID=Europe/Kyiv:20261119T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР12. Масштабування та оновлення застосунків у Kubernetes\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
+END:VEVENT
+BEGIN:VEVENT
+UID:4a2fc962870e72b85f3ba2dc0e8fc18d@kit-znu
+DTSTAMP:20260909T071932Z
+DTSTART;TZID=Europe/Kyiv:20261119T143000
+DTEND;TZID=Europe/Kyiv:20261119T155000
+SUMMARY:Професійний проєктний практикум [Лб]
+LOCATION:ауд. онлайн
+DESCRIPTION:Google Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.26
 END:VEVENT
 BEGIN:VEVENT
 UID:8d02c9df4028e1f05ea5a8800f0837b3@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261124T125500
 DTEND;TZID=Europe/Kyiv:20261124T141500
 SUMMARY:DevOps [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лк\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: CI/CD-конвеєри: принципи та інструменти (Jenkins\, GitLab CI\, GitHub Actions)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лк · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:01d9c7e70156f0996338c6d964f0e50c@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261124T143000
 DTEND;TZID=Europe/Kyiv:20261124T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:a708a831f310208598990bfc9197427f@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261125T125500
 DTEND;TZID=Europe/Kyiv:20261125T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:d93b454ce1c727be4f02a435ce8e9331@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261125T143000
 DTEND;TZID=Europe/Kyiv:20261125T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР12. Комплексний аналіз ризиків для обраного підприємства (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:1f37556cc1699c15321afcb2a11748f4@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261126T125500
 DTEND;TZID=Europe/Kyiv:20261126T141500
 SUMMARY:DevOps [Пз]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Пз\nГрупи: 6.1264\, 6.F6.25-c2
+DESCRIPTION:Тема: ЛР13. Побудова повного CI/CD-конвеєра для веб-застосунку\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Пз · 6.1264\, 6.F6.25-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:9185f5e11f44a8e249a4d696ac02d878@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261201T112500
 DTEND;TZID=Europe/Kyiv:20261201T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Оцінка якості прогнозування. Методи покращення якості\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:42f67fa9b4d8bf2af8f5f9f15e73b44e@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261201T143000
 DTEND;TZID=Europe/Kyiv:20261201T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:65a72182a1ed36fa106d4412d6687fe6@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261202T112500
 DTEND;TZID=Europe/Kyiv:20261202T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Карта ризиків для обраного об'єкта\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:cef3a8d55b15f40be703dbc64e4132b8@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261202T125500
 DTEND;TZID=Europe/Kyiv:20261202T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:eaaac830359796b63f4c32bc56df0fbd@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261202T143000
 DTEND;TZID=Europe/Kyiv:20261202T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР12. Комплексний аналіз ризиків для обраного підприємства (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:473a90717d39588283a0d7db568476df@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261203T112500
 DTEND;TZID=Europe/Kyiv:20261203T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Комбінація моделей\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
+END:VEVENT
+BEGIN:VEVENT
+UID:b12db23580d09562d74352c049fe14ff@kit-znu
+DTSTAMP:20260909T071932Z
+DTSTART;TZID=Europe/Kyiv:20261203T143000
+DTEND;TZID=Europe/Kyiv:20261203T155000
+SUMMARY:Професійний проєктний практикум [Лб]
+LOCATION:ауд. онлайн
+DESCRIPTION:Google Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.26
 END:VEVENT
 BEGIN:VEVENT
 UID:f86c0b1b644e6f3eda9737daadddfdde@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261208T143000
 DTEND;TZID=Europe/Kyiv:20261208T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:4815d5c59f26245a6110d0e6a2789a60@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261209T125500
 DTEND;TZID=Europe/Kyiv:20261209T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d10427e5119be62633eaccb6c2e706@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261209T143000
 DTEND;TZID=Europe/Kyiv:20261209T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР12. Комплексний аналіз ризиків для обраного підприємства (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:35a39afa05f096ec366f6804f9095ffa@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261215T112500
 DTEND;TZID=Europe/Kyiv:20261215T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1263
+DESCRIPTION:Тема: Часові ряди з номінальними даними. Марківські послідовності\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1263
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1388c158de2ba588999a06996aeb56@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261215T143000
 DTEND;TZID=Europe/Kyiv:20261215T155000
 SUMMARY:Паралельні та розподілені обчислення [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лк\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лк · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:ea6646229667de7ea21d38da34811712@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261216T112500
 DTEND;TZID=Europe/Kyiv:20261216T124500
 SUMMARY:Управління ризиками інформаційної безпеки [Лк]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лк\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: Розробка стратегій управління ризиками. Аналіз політик безпеки (ISO\, NIST)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лк · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:ecac61d4ce4649d6d0e68e0f9736dc37@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261216T125500
 DTEND;TZID=Europe/Kyiv:20261216T141500
 SUMMARY:Паралельні та розподілені обчислення [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 4\nВид: Лб\nГрупи: 6.1223\, 6.1224-с2
+DESCRIPTION:Тема: Тема 6. Модель акторів (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 4 · Лб · 6.1223\, 6.1224-с2
 END:VEVENT
 BEGIN:VEVENT
 UID:66b973e05f6c15d8aed7dac2ae933d3e@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261216T143000
 DTEND;TZID=Europe/Kyiv:20261216T155000
 SUMMARY:Управління ризиками інформаційної безпеки [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 5\nВид: Лб\nГрупи: 6.1253\, 6.1254-c2
+DESCRIPTION:Тема: ЛР12. Комплексний аналіз ризиків для обраного підприємства (продовження)\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 6.1253\, 6.1254-c2
 END:VEVENT
 BEGIN:VEVENT
 UID:599f6781e7708cf79cfbc7f762d00693@kit-znu
-DTSTAMP:20260906T080655Z
+DTSTAMP:20260909T071932Z
 DTSTART;TZID=Europe/Kyiv:20261217T112500
 DTEND;TZID=Europe/Kyiv:20261217T124500
 SUMMARY:Аналіз даних і прогнозування в інформаційних системах [Лб]
 LOCATION:ауд. онлайн
-DESCRIPTION:Пара: 3\nВид: Лб\nГрупи: 6.1263
+DESCRIPTION:Тема: Побудова марківської моделі\nGoogle Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 3 · Лб · 6.1263
+END:VEVENT
+BEGIN:VEVENT
+UID:311c4aa38650255e9e3d9bec3c1cf7e1@kit-znu
+DTSTAMP:20260909T071932Z
+DTSTART;TZID=Europe/Kyiv:20261217T143000
+DTEND;TZID=Europe/Kyiv:20261217T155000
+SUMMARY:Професійний проєктний практикум [Лб]
+LOCATION:ауд. онлайн
+DESCRIPTION:Google Meet: https://meet.google.com/mwp-gbkw-xhk\nПара: 5 · Лб · 7.F3.26
 END:VEVENT
 END:VCALENDAR
